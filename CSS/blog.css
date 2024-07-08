@@ -65,3 +65,17 @@ input::placeholder, textarea::placeholder{
     background-color: skyblue;
     color: white;
 }
+
+@media (max-width:700px){
+    .post .container{
+        flex-direction: column;
+    }
+
+    .graduate, .post-categories{
+        width: 100%;
+    }
+
+    #name, #email, textarea{
+        width: 100%;
+    }
+}
