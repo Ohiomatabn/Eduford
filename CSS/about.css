@@ -7,3 +7,58 @@
     background-size: cover;
     position: relative;  
 }
+
+.teaching .container{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.text{
+    color: white;
+    text-align: center;
+    padding-top: 4%;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.platform h1{
+    font-size: 5vmin;
+    font-weight: normal;
+}
+
+.platform p{
+    color: gray;
+    word-spacing: 2.5px;
+}
+
+.btn{
+    color: gray;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 3px solid #d6420c;
+    margin: 20px 0;
+    transition: .5s;
+}
+
+.btn:hover{
+    background-color: #d6420c;
+    color: white;
+}
+
+.platform, .image{
+    flex-basis: 50%;
+}
+
+.image, .platform{
+    width: 50%;
+    margin-top: 10%;
+}
+
+.image img{
+    width: 100%;
+}
