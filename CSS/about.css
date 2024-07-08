@@ -62,3 +62,19 @@
 .image img{
     width: 100%;
 }
+
+footer{
+    text-align: center;
+}
+
+footer h4{
+    font-size: 3vmin;
+}
+
+footer p{
+    font-size: 2vmin;
+}
+
+.Ohiomata{
+    padding-top: 20px;
+}
