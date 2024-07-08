@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>university Website Design</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="CSS/fontawesome.min.css" />
+    <link rel="stylesheet" href="CSS/about.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+</html>
+
+<body>
+  <section class="header-2">
+    <nav>
+      <a href="index.html"><img src="IMAGE/logo.png" alt="" /></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text">
+      <h1>Our Courses</h1>
+    </div>
+  </section>
+
+  <section class="course">
+    <h1>Courses We Offer</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor
+      sit amet consectetur adipisicing elit. Error hic quae fuga. Error et
+      deleniti, dolores facilis magnam mollitia porro? Lorem ipsum dolor sit
+      amet consectetur adipisicing elit. Ut, minima?
+    </p>
+
+    <div class="row">
+      <div class="course-col">
+        <h3>Intermidate</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolorem
+          assumenda, aut rem modi officia enim mollitia quaerat ipsam
+          consequuntur laboriosam voluptates accusamus autem error sit.
+        </p>
+      </div>
+      <div class="course-col">
+        <h3>Degree</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolorem
+          assumenda, aut rem modi officia enim mollitia quaerat ipsam
+          consequuntur laboriosam voluptates accusamus autem error sit.
+        </p>
+      </div>
+      <div class="course-col">
+        <h3>Post Graduation</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolorem
+          assumenda, aut rem modi officia enim mollitia quaerat ipsam
+          consequuntur laboriosam voluptates accusamus autem error sit.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!--facilities-->
+  <section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <div class="row">
+      <div class="facilities-col">
+        <img src="IMAGE/library.png" alt="" />
+        <h3>Undergraduate Programs</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste autem,
+          explicabo eaque nostrum reprehenderit ullam. Lorem ipsum dolor sit,
+          amet consectetur adipisicing elit. Consequuntur odit quia id ea
+          repellendus inventore voluptate est ullam eligendi, odio placeat porro
+          nostrum hic temporibus et at earum saepe perferendis.
+        </p>
+      </div>
+      <div class="facilities-col">
+        <img src="IMAGE/basketball.png" alt="" />
+        <h3>Graduate Programs</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste autem,
+          explicabo eaque nostrum reprehenderit ullam. Lorem ipsum, dolor sit
+          amet consectetur adipisicing elit. Doloribus incidunt tenetur quis
+          animi, suscipit impedit, quo atque ducimus iure numquam blanditiis
+          architecto velit earum laborum voluptas error unde molestiae? Cumque?
+        </p>
+      </div>
+      <div class="facilities-col">
+        <img src="IMAGE/cafeteria.png" alt="" />
+        <h3>Post Graduation</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste autem,
+          explicabo eaque nostrum reprehenderit ullam. Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Culpa nemo fuga in quasi voluptatum
+          inventore voluptas! Numquam est voluptatibus alias itaque, quasi ab
+          molestias saepe, harum ut maiores quod. Molestias.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <h4>About Us</h4>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, modi.
+      Veniam, dolor ea doloribus necessitatibus laborum est cupiditate sunt.
+      Harum voluptas molestias porro enim nobis! Dolorem recusandae quam modi
+      eum, consectetur id, explicabo autem odio magni labore unde incidunt
+      officia sequi voluptatem. Omnis, tempora itaque.
+    </p>
+    <p class="Ohiomata">Made by Ohiomata BN</p>
+  </footer>
+
+  <!-------JavaScript for toggle menu---->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
