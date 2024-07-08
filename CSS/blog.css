@@ -58,6 +58,7 @@ input::placeholder, textarea::placeholder{
     color: skyblue;
     transition: .5s;
     cursor: pointer;
+    margin-bottom: 30px;
 }
 
 .comment-btn:hover{
