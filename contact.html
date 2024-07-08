@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>university Website Design</title>
     <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/contact.css" />
+    <link rel="stylesheet" href="CSS/blog.css" />
     <link rel="stylesheet" href="CSS/all.min.css" />
     <link rel="stylesheet" href="CSS/fontawesome.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -42,33 +44,77 @@
       </div>
     </section>
 
-    <section class="visit">
-      <div class="container">
-        <div class="cont">
-          <i class="fa-solid fa-house-chimney fa-1x"></i>
-          <p>University of Engineering and management, Gurukul Campus</p>
-          <p><span class="light">Jaipu, Rajathan, India</span></p>
-        </div>
-      </div>
-      <div class="container">
-        <div class="cont">
-          <div class="tel">
-            <i class="fa-solid fa-phone"></i>
-            <p>+91 637 8281 761</p>
-            <p><span class="light">Monday to Saturday, 10AM to 6PM</span></p>
+    <div class="div">
+      <section class="visit">
+        <div class="container">
+          <div class="cont">
+            <i class="fa-solid fa-house-chimney fa-2x"></i>
+            <p>
+              University of Engineering and <br />
+              management, Gurukul Campus <br /><span class="light"
+                >Jaipu, Rajathan, India</span
+              >
+            </p>
           </div>
         </div>
-      </div>
-      <div class="container">
-        <div class="cont">
-          <div class="email">
-            <i class="fa-regular fa-envelope"></i>
-            <p>eamil@email.com</p>
-            <p><span class="light">Eamil us you queries</span></p>
+        <div class="container">
+          <div class="cont">
+            <i class="fa-solid fa-phone fa-2x"></i>
+            <p>
+              +91 637 8281 76n <br /><span class="light"
+                >Monday to Saturday, 10AM to 6PM</span
+              >
+            </p>
           </div>
         </div>
-      </div>
-    </section>
+        <div class="container">
+          <div class="cont">
+            <i class="fa-regular fa-envelope fa-2x"></i>
+            <p>
+              eamil@email.com <br /><span class="light"
+                >Eamil us you queries</span
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="comment">
+        <div class="container">
+          <form action="">
+            <h4>Leave a comment</h4>
+            <input
+              type="text"
+              name="name"
+              id="name-2"
+              placeholder="Enter Your Name"
+            />
+            <br />
+            <input
+              type="email"
+              name="email"
+              id="email-2"
+              placeholder="Enter Your Email"
+            />
+            <br />
+            <input
+              type="text"
+              name="subject"
+              id="subject-2"
+              placeholder="Enter Your Subject"
+            />
+            <textarea
+              name="comment"
+              id="comment-2"
+              rows="7"
+              placeholder="Your Comment"
+            ></textarea
+            ><br />
+            <input type="submit" value="Send Message" class="comment-btn" />
+          </form>
+        </div>
+      </section>
+    </div>
 
     <!-------JavaScript for toggle menu---->
     <script>
