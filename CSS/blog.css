@@ -34,3 +34,33 @@
     font-size: 5vmin;
     padding-bottom: 10px;
 }
+
+form h4{
+    font-size: 1.3em;
+}
+
+#name, #email, textarea{
+    width: 50%;
+    padding: 8px;
+    background-color: rgba(201, 200, 200, 0.3);
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+}
+
+input::placeholder, textarea::placeholder{
+    color: rgb(167, 165, 165);
+}
+
+.comment-btn{
+    border: 2px solid skyblue;
+    padding: 10px 30px;
+    color: skyblue;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.comment-btn:hover{
+    background-color: skyblue;
+    color: white;
+}
