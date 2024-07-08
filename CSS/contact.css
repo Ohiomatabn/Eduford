@@ -1,0 +1,13 @@
+.container{
+    width: 95%;
+    margin: auto;
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+}
+
+i{
+    padding-right: 30px;
+}
